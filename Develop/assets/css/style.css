@@ -14,16 +14,16 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*  .*/
+/* addresses properties for the main header .*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* makes the contents of h1 and header inline-block and 48px .*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* makes color for seo/h1/header d9dcd6 .*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* adjusts all the above properties for header and div .*/
 
-.header div ul {
-    list-style-type: none;
-}
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
-
+/*consolidated code, places content to the left, and describes orientation. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* color of links and no text decor */
 p {
     font-size: 16px;
 }
-
+/*font size of paragraph*/
 .hero {
     height: 80px;
     width: 100%;
@@ -57,24 +56,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* reduced the height .*/
+/* reduced the height, a break from two sections .*/
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* how they offset description*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* how they offset description*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* describes the three main boxes*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,12 +84,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* describes the main box to the right*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* consolidated lead/brand/cost*/
+/* consolidated lead/brand/cost, the three texts to the right*/
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
@@ -134,11 +133,11 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* footer properties*/
 .footer h2 {
     font-size: 20px;
 }
-
+/* footer font size*/
 .mainimage {
 background-position: center;
 max-width: 100%;
